@@ -1,0 +1,25 @@
+.pizzaItem {
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top:50px;
+}
+.pizzaContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 701px) and (max-width: 1120px){
+    .pizzaItem {
+        width: 50%;
+        height:50%;
+        margin-left: 280px;
+    }
+}
+
+@media (max-width: 700px){
+    .pizzaItem {
+        width: 70%;
+        height:70%;
+        margin-left: 100px;
+}
+}

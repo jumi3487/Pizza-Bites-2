@@ -1,0 +1,357 @@
+@keyframes fallDown {
+  from {
+    transform: translateY(-100%);
+    top: 0%;
+    left:27.2%;
+  }
+  to {
+    transform: translateY(0);
+    left:27.2%;
+    top: 19.9%;
+  }
+}
+
+.inputContainer {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-bottom: 300px;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--red);
+  box-shadow: 0 0 5px var(--red);
+}
+
+
+.toppingImageTomato {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  animation: fallDown 1s ease-out; 
+}
+
+.toppingImageShrimp {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  animation: fallDown 1s ease-out; 
+}
+
+.toppingImagePineapple{
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 1.5;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageOlive {
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 1.3;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageMushroom {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 1;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageHam {
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 0;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageBasil {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 2.5;
+  animation: fallDown 1s ease-out;
+  
+}
+
+.chooseYourTopping {
+  color: var(--lightyellow);
+  background-color: var(--red);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  border-radius: 30px;
+  text-align:center;
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 280px;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 100%;
+    max-width: 300px;
+  }
+  @keyframes fallDown {
+    from {
+      transform: translateY(-100%);
+      top: 0%;
+      left:45%;
+    }
+    to {
+      transform: translateY(0);
+      left:45%;
+      top: 15.4%;
+    }
+  }
+
+  .toppingImageTomato{
+    position: absolute;
+    width: 40%;
+    height:38.5%;
+    left: 49%;
+    top: 52%; 
+    transform: translate(-10%, -100%);
+    z-index: 2.5;
+    animation: fallDown 1s ease-out;
+  }
+  /*
+  .toppingImageShrimp
+  .toppingImageBasil
+  .toppingImageHam
+  .toppingImageMushroom
+  .toppingImageOlive
+  .toppingImagePineapple{
+    position: absolute;
+    left: 47%;
+    top: 55%; 
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+
+  }*/
+
+
+  .toppingImageShrimp {
+    position: absolute;
+    width: 36%;
+    height:34%;
+    left: 49%;
+    top: 52%;  
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 1.9;
+  }
+  .toppingImageBasil{
+    position: absolute;
+    width: 38%;
+    height:37%;
+    left: 49%;
+    top: 52%; 
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 2.5;
+  }
+  .toppingImageHam{
+    position: absolute;
+    width: 40%;
+    height:38.5%;
+    left: 49%;
+    top: 52%; 
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 0;
+  }
+  .toppingImageMushroom{
+    position: absolute;
+    width: 40%;
+    height:38.5%;
+    left: 49%;
+    top: 52%;  
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index:1;
+  }
+  .toppingImageOlive{
+    position: absolute;
+    width: 35%;
+    height:35%;
+    left: 49%;
+    top: 50%; 
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 1.3;
+  }
+  .toppingImagePineapple{
+    position: absolute;
+    width: 40%;
+    height:38.5%;
+    left: 49%;
+    top: 52%;  
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 1.8;
+  }
+
+  
+}
+/* media query for mobile*/
+
+@media (max-width: 700px){
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding-left: 140px;
+    width: 50%;
+   
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .chooseYourTopping {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+  }
+  /* Transition appears hears */
+
+  @keyframes fallDown {
+    from {
+      transform: translateY(-100%);
+      top: 0%;
+      left:30.2%;
+    }
+    to {
+      transform: translateY(0);
+      left:30.2%;
+      top: 12%;
+  }
+}
+
+  .toppingImageTomato{
+    position: absolute;
+    width: 55%;
+    height: 27%;
+    left: 36%;
+    top: 36%; 
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 2;
+  }
+  .toppingImageShrimp {
+    position: absolute;
+    width: 55%;
+    height: 23%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 2;
+  }
+  .toppingImageBasil{
+    position: absolute;
+    width: 55%;
+    height: 25%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 3;
+  }
+  .toppingImageHam{
+    position: absolute;
+    width: 52%;
+    height: 26%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 0;
+  }
+  .toppingImageMushroom{
+    position: absolute;
+    width: 52%;
+    height: 27%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index:1;
+  }
+  .toppingImageOlive{
+    position: absolute;
+    width: 50%;
+    height: 24%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 1.3;
+  }
+  .toppingImagePineapple{
+    position: absolute;
+    width: 55%;
+    height: 25%;
+    left: 36%;
+    top: 36%;
+    transform: translate(-10%, -100%);
+    animation: fallDown 1s ease-out;
+    z-index: 1.5;
+  }
+
+
+}
